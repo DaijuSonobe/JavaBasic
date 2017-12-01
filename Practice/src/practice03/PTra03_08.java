@@ -36,5 +36,18 @@ public class PTra03_08 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if(num == 1) {
+			System.out.println("あなたが購入したのはオレンジジュースです。");
+			System.out.println("残りの所持金は" + (money - 150) + "円です。");
+		}else if(num == 2) {
+			System.out.println("あなたが購入したのはリンゴジュースです。");
+			System.out.println("残りの所持金は" + (money - 160) + "円です。");
+		}else if(num == 3){
+			System.out.println("あなたが購入したのはコーヒーです。");
+			System.out.println("残りの所持金は" + (money - 200) + "円です。");
+		}
+
+
+
 	}
 }

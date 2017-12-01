@@ -61,6 +61,21 @@ public class PTra04_05 {
 
 			}
 
+			if(myHand == cpuHand) {
+				System.out.println("あいこ");
+				System.out.println();
+			}
+
+			if((myHand == 0 && cpuHand ==2) || (myHand == 1 && cpuHand == 0) || (myHand == 2 && cpuHand == 1)) {
+				System.out.println("あなたの負けです");
+				System.out.println();
+			}
+
+			if((myHand == 0 && cpuHand ==1) || (myHand == 1 && cpuHand == 2) || (myHand == 2 && cpuHand == 0)) {
+				System.out.println("あなたの勝ちです");
+				winFlg = true;
+			}
+
 		}
 	}
 }
