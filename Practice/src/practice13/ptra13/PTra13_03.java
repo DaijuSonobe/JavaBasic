@@ -25,9 +25,7 @@ public class PTra13_03 {
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
 
-		String para = slime.showParameter();
-
-		System.out.println(para);
+		System.out.println(slime.showParameter());
 
 	}
 }

@@ -16,5 +16,16 @@ public class PTra17_04 {
 		 * ※ Thread.sleep を使用すること
 		 */
 
+		String[] st = str.split("");
+
+		try{
+			for(String st2:st) {
+				System.out.print(st2);
+				Thread.sleep(500);
+			}
+		}catch(InterruptedException e){
+
+		}
+
 	}
 }

@@ -22,8 +22,10 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
-		double Change = moneyInHand - 1.08 * (coffee * 2 + snack);
-		System.out.println((int)Change);
+		double bought = 1.08 * (coffee * 2 + snack);
+		int boughtThing = (int)bought;
+		int Change = moneyInHand - boughtThing;
+		System.out.println(Change);
 
 
 	}
